@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color: #edeef0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+.logo-text {
+    font-size: 3em;
+    font-weight: 700;
+    color: #F05136;
+}
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #F05136;
+}
+
+header {
+    background: black;
+    color: white;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div p {
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+h1,
+h3,
+h4 {
+    font-weight: 700;
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 1.8em;
+}
+
+
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background-color: #F05136;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 6%;
+    border-color: black;
+}
+
+.link-button:hover {
+    color: white;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+}
+
+#bio img {
+    width: 225px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 100px;
+}
+
+.break {
+    display: block;
+}
+
+#bio article * {
+    margin: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#portfolio {
+    background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#portfolio>div {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#portfolio h3,
+p,
+hr {
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 400px;
+}
+
+#portfolio>div>div {
+    background: white;
+    color: black;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#portfolio div div p {
+    padding: 0 5px;
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+
+}
+
+#skills>div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+#skills>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    margin: 10px 0;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: gray;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+}
+
+::-webkit-progress-value {
+    background: #F05136;
+}
+
+#skills ul {
+    font-size: 1.5em;
+}
+
+#contact {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact form input:last-child {
+    margin-top: 30px;
+}
+
+.input {
+    height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
