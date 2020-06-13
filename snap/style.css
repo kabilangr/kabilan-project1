@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav img {
+    width: 25px;
+    height: 25px;
+    border-color: black;
+    padding-left: 50px;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background-color: #edeef0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: yellow;
+    padding: 50px;
+}
+
+section {
+    background: yellow;
+    padding: 50px;
+}
+
+.ali {
+    height: 400px;
+    width: 400px;
+
+}
+
+section>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section>div>div>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.iago {
+    font-size: 20px;
+
+}
+
+section>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+section p {
+    font-size: 15px;
+}
+
+.watch-bu {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1.8em;
+    padding: 10px 30px;
+    border-radius: 10em;
+
+}
+
+section div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article div li {
+    list-style: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+article div li a {
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+}
+
+article div h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lang1 {
+    width: 150px;
+    height: 30px;
+    border-color: rgb(202, 202, 202);
+    color: rgb(168, 165, 165);
+    background: rgb(240, 239, 239);
+    border-radius: .35em;
+}
+
+footer {
+    background: rgb(27, 26, 26);
+
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+footer ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
