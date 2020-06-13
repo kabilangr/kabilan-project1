@@ -125,6 +125,6 @@ function play() {
         move(n, d);
     });
 
-    console.log("your position" + board[queen.position.x][queen.position.y]);
-    document.write("your position" + board[queen.position.x][queen.position.y]);
+    console.log("your position-->" + board[queen.position.x][queen.position.y]);
+    document.write("your position-->" + board[queen.position.x][queen.position.y]);
 }
